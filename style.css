@@ -1,0 +1,75 @@
+/* 全体のベース設定 */
+body {
+    font-family: sans-serif;
+    color: #000000;
+    margin: 100px;
+}
+
+main, section, header, footer, aside, nav {
+    padding: 20px;
+}
+
+  /* ヘッダー */
+header {
+    background-color: #e29ed1; /* 黄色系 */
+    text-align: center;
+    width: 740px;
+    height: 80px;
+}
+
+  /* レイアウト（サイドバー + メイン） */
+aside {
+    width: 220px;
+    height: 400px;
+    background-color: #b0e2c1;
+    border-right: 1px solid #ccc;
+    float: left;
+}
+
+/* メイン */
+main {
+    margin-left: 250px;
+    height: 400px;
+    background-color: #ebd3af;
+}
+
+table th,
+table td {
+    padding: 10px 12px;
+}
+
+table th {
+    width: 160px;
+    text-align: left;
+    font-weight: normal;
+}
+/* フォームテーブル */
+table {
+    width: 100%;
+}
+
+/* 入力欄 */
+input[type="text"],
+textarea {
+    width: 95%;
+    padding: 6px;
+    font-size: 14px;
+}
+
+/* 送信ボタン */
+.btn-area{
+    float: right;
+}
+
+footer {
+    background-color: #a3a1a1;
+    width: 740px;
+    height: 70px;
+}
+#changeColorBtn {
+    padding: 8px 16px;
+    border: 1px solid #666;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+}
